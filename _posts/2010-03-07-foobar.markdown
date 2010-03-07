@@ -1,9 +1,0 @@
----
-title: Foobarz0rz?
-permalink: foobar.html
-layout: default
----
-
-Foobar?
-
-[foobar](foobaz)
