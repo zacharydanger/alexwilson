@@ -1,13 +1,16 @@
 <html>
 	<head>
 		<title>alexandriawilson.me | {{page.title}}</title>
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
 	</head>
 	<body>
-		<div class="content-stage">
-			{{content}}
-		</div>
-		<div class="footer">
-			{{site.time}}
+		<div id="main_container">
+			<div class="content-stage">
+				{{site.posts}}
+			</div>
+			<div id="footer">
+				Powered by Jekyll, site last generated: {{site.time}}
+			</div>
 		</div>
 	</body>
 </html>
